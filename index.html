@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Date & Time Picker - jQuery Plugin</title>
+	<link rel="stylesheet" href="fonts/fontIcons.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h3>Date & Time Picker:</h3>
+Date & Time: <input type="text" class="date calnOpen" readonly> <span class="calnOpen fa fa-calendar calnOpen-icon"></span>
+<div class="datePicker"></div>
+</body>
+</html>
+
+<script type="text/javascript" src="libs/jquery.min.js"></script>
+<script type="text/javascript" src="libs/R.js"></script>
+<script type="text/javascript" src="libs/en-US.js"></script>
+<script type="text/javascript" src="libs/fr-FR.js"></script>
+<script>
+$(document).ready(function(){
+	$('.calnOpen').dateTimePicker({lang: 'en-US', baseColor: '#ff0000'});
+});
+</script>
+<script type="text/javascript" src="scripts/main.js"></script>
