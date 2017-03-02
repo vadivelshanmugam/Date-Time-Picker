@@ -8,7 +8,7 @@ This option based on R.js and its supporting language files, ex: You want Englis
 $(selector).dateTimePicker({lang: 'en-US'});
 ```
 
-### Language example file
+#### Language example file
 ```javascript
 R.registerLocale("en-US", {
   January: "January",
