@@ -59,5 +59,5 @@ $(selector).dateTimePicker({dateFormat: 'DDMMYYYY'});
   1. jQuery
   2. R.js
   
-  >CSS
+  >CSS & Fonts
   1. Font Awesome  
