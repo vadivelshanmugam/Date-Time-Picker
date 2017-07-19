@@ -1,5 +1,5 @@
 # Date and Time Picker
-This is plugin about date and time picker, it has lots of custome options, like language selection, color theme, meridiem, date format.
+This plugin about date and time picker, it has lots of custom options, like language selection, color theme, meridiem, date format.
 
 ### Language Selection
 This option based on R.js and its supporting language files, ex: You want English as language, You need to add month and week translated string in one Javascript file, in the form of key and value pairs.
